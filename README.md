@@ -1,7 +1,7 @@
 # BUT Family
 
-A full social network for university students — posts, groups, direct messages, notifications,
-follows — built from scratch in PHP and MySQL in 2024 for Bucheon University in Tashkent.
+A full social network for university students - posts, groups, direct messages, notifications,
+follows - built from scratch in PHP and MySQL in 2024 for Bucheon University in Tashkent.
 
 ![BUT Family](docs/promo.jpg)
 
@@ -13,7 +13,7 @@ follows — built from scratch in PHP and MySQL in 2024 for Bucheon University i
 within a week.
 
 I am publishing it anyway, because it taught me more than anything I built that worked. The product
-was not the problem — the feed, the groups, the messaging and the notifications all worked. The
+was not the problem - the feed, the groups, the messaging and the notifications all worked. The
 problem was that students already had Telegram, and nothing here was worth leaving it for. I built
 for a year on the assumption that a dedicated campus network was wanted, and never tested that
 assumption before writing the code.
@@ -64,7 +64,7 @@ git clone https://github.com/starboyqwerty/but-family
 ```
 
 1. Drop the folder into your web root (`htdocs/`).
-2. Create a MySQL database — `but_db` by default.
+2. Create a MySQL database - `but_db` by default.
 3. Copy the config and set your credentials:
 
    ```bash
@@ -85,7 +85,7 @@ git clone https://github.com/starboyqwerty/but-family
 5. Open it in your browser and register an account.
 
 > **Note:** the schema is not included in this repository. It was reconstructed live during
-> development rather than kept in migrations — which is itself a mistake worth not repeating.
+> development rather than kept in migrations - which is itself a mistake worth not repeating.
 
 ## A note on data
 
@@ -95,7 +95,7 @@ stay that way in any fork.
 
 ## License
 
-MIT — see [LICENSE](LICENSE).
+MIT - see [LICENSE](LICENSE).
 
 ---
 

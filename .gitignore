@@ -1,0 +1,17 @@
+# Secrets
+.env
+
+# User-uploaded content - never commit, contains real user data
+uploads/*
+!uploads/.gitkeep
+
+# Databases and dumps
+*.db
+*.sql
+*.sqlite
+
+# OS / editors
+Thumbs.db
+.DS_Store
+.vscode/
+.idea/
